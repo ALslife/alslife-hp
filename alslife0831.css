@@ -1,0 +1,1249 @@
+@charset "UTF-8";
+
+.headerhome{
+  display: flex;
+  justify-content: space-between;
+  padding: 20 4%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.big{background-image: url("image/_MG_3273-12.jpg");
+     min-height: 60vw;
+     background-size: cover;
+     background-position: center top;
+     background-repeat: no-repeat;
+     background-blend-mode: overlay;
+
+   }
+
+.homecontent  { text-align: center;
+                 padding-top: 12%;
+                 font-family: Imprint MT Shadow;
+                 color: white; }
+
+.hometitle {font-size: 5rem;}                 
+
+.homecontent p{ font-size: 2rem;
+                position: relative;
+                bottom: 60px;}
+
+.button {font-size: 1.375rem;
+         background-color: #0bd;
+         color: #fff;
+         border-radius: 5px;
+         padding: 18px 32px;}  
+
+.button:hover{background:#0090aa;}
+.before-article:hover{background:#0090aa;}
+.next-article:hover{background:#0090aa;}
+
+/*HOMEのCSS*/
+/*CONTACTのCSS*/
+
+
+nav.contact2 {
+  background-color: #252D28;
+  color: white;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;}
+
+.header-img{ height: 30px;
+          width:30px; 
+          padding: 13px 10px 10px 20px;}
+
+#menu a:link {color: white;}
+#menu a:visited{color: white;}
+#menu a:hover {color: red;}
+a {text-decoration: none;}          
+
+div.header {display: flex;
+	        justify-content: space-between;
+	        padding: 20 4%;
+        }
+            
+
+div.hitem {  padding: 10px 10px 10px 50px;}
+
+#menu{padding-top: 15px;
+      color: white;
+      font-weight: bold;}
+
+i:hover {opacity: .3}
+
+
+
+.fa-twitter{color:#1da1f2;}
+.fa-youtube{color:#ff0000;
+           }           
+.fa-instagram{color:#e1306c;
+            }
+
+#pcpicture{
+  background-image: url("image/middle.png");
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 250px;
+}
+
+h2.title  { text-align: center;
+	  line-height: 1.5; 
+	  font-family: Imprint MT Shadow;
+	  color: white;
+	  position:relative;
+	  top: 100px;}
+
+.subtitle { font-weight: bold;
+	        color: white;
+            font-family: Imprint MT Shadow;
+            text-align: center;
+            position:relative;
+	        top: 80px;}	  
+
+
+
+body {background-color: #e2eba3;
+      margin: 0px;}
+
+
+
+.confirm1 { padding: 20px 100px 0px 450px;
+            font-size: 3rem; }
+
+div.middle {display: flex;}
+
+input.form {height: 25px;
+       width: 415px;
+       font-size: 1.2rem;}
+
+textarea {height: 100px;
+          width: 415px;
+          vertical-align:top;}
+main {flex: 1;
+      width: 76%;}
+          
+
+.name {font-weight: bold;
+       font-size: 1.25rem;
+       padding: 70px 100px 0px 230px;}
+
+.mail{ font-weight: bold;
+       font-size: 1.25rem;
+       padding: 50px 100px 0px 230px;}
+
+.contact {font-weight: bold;
+          font-size: 1.25rem;
+          padding: 50px 100px 0px 230px;
+        }  
+
+.opinion{
+  font-size: 1.2rem;
+}          
+
+.send { position: relative;
+        top: 40px;
+        left: 530px;
+        font-size: 1.2rem;
+        background-color: #0bd;
+        color: #fff;
+        border-radius: 5px;
+        padding: 9px 16px;}
+
+.send:hover{background:#0090aa;}
+
+h1  { font-family: Imprint MT Shadow;}
+
+.pcaside { background-color:#8ABCF5;
+        text-align: center;
+        width: 24%;
+        height: 850px;}
+
+.side1 { 
+	     border-style: solid ;
+	     font-family: Imprint MT Shadow;
+		 position: relative;
+         bottom: 15px; 
+         border-radius:20px; 
+         border-color: #e2eba3;
+         background-color: lightgreen;}
+
+aside img {width: 120px;
+           height: 120px;}  
+
+.profile { position: relative;
+           font-weight: bold;
+           line-height: 35px;
+           bottom: 15px; }                 
+
+h3.side2 {border-style: solid;
+	        font-family: Imprint MT Shadow; 
+	        position: relative;
+          top: 50px;
+          border-radius:20px; 
+          border-color: #e2eba3;
+          background-color: lightgreen;}
+
+.newpost{
+  list-style-image: url("image/list.png");
+    padding-top: 60px;
+    margin-left: 10px;
+}
+
+.new{padding: 60px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-align: center;}
+
+.new a:link {color: black;}
+.new a:hover {color: red;}
+
+footer { background: #432;
+	     text-align: center;
+	     padding: 1px 0;}
+
+footer p {color: #fff;
+          font-size: 0.875rem;}	
+
+/*CONTACTのCSS*/
+        
+
+/*PHOTOSのCSS*/
+
+
+.photos1{width: 190px;
+         height: 190px;
+         margin: 35px 0px 0px 5px;}
+
+
+.pcPHOTOS1next{
+      font-size: 1.5rem;
+      width: 20px;
+      margin-top: 10px;
+      margin-left: 550px;
+      font-weight: bold;}
+
+.pcPHOTOS1next a:link {color: black;}
+.pcPHOTOS1next a:visited{color: black;}
+.pcPHOTOS1next a:hover {color: red;}
+
+/*BLOGのCSS*/
+
+.article{ 
+  display: flex;
+  align-content: space-between;
+  flex-wrap:wrap;
+   }
+
+.post{position: relative;
+      padding-top: 0px;
+      margin-left: 50px;
+      height: 350px;
+      }
+
+.post-date{background: #8ABCF5;
+           border-radius: 50%;
+           color: #fff;
+           width: 110px;
+           height: 100px;
+           font-size: 2.0rem;
+           text-align: center;
+           position: absolute;
+           top: 0;
+           padding-top: 30px;
+           margin-left: 20px;
+           top: 50px;
+           font-family: Imprint MT Shadow;
+  }
+
+.post-date span{
+  font-size: 1.0rem;
+  border-top: 1px rgba(255,255,255,.5) solid;
+  padding-top: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;  
+  font-family: Imprint MT Shadow;        
+}
+
+.post-title{
+  font-family: Imprint MT Shadow;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-bottom: 15px;
+  margin-top: 30px;
+
+}
+
+.post-title a:link {color: black;} 
+.article-content a:link {color: black;}
+.post-title a:visited{color: black;} 
+.article-content a:visited{color: black;}
+.post-title  a:hover {
+  color: red;
+  border-bottom: solid;                      
+}
+.article-content a:hover {
+  color: red;
+  border-bottom: solid;                      
+}
+
+.article-space{
+  text-align: center;
+  border-style: dotted;
+}
+
+.smafoimage{
+  padding-left: 220px;
+  padding-top: 30px;
+  width: 250px;
+  height: 400px;
+}
+
+.post1{
+  width:300px;
+  height: 200px; 
+  margin-left: 140px;
+  padding-bottom: 50px;
+}
+
+.post-under{
+  position: relative;
+  padding-top: 4px;
+  margin-left: 50px;
+  height: 350px;
+ }
+
+.BLOG1-next{text-align: center;
+      padding-top: 15px;
+      font-weight: bold;}
+
+.BLOG1-next a:link {color: black;}
+.BLOG1-next a:visited{color: black;}
+.BLOG1-next a:hover {color: red;}
+
+/*BLOG記事のCSS*/
+
+.post-date-article{background: #8ABCF5;
+           border-radius: 50%;
+           color: #fff;
+           width: 150px;
+           height: 140px;
+           font-size: 3.0rem;
+           text-align: center;
+           padding-top: 30px;
+           position: absolute;
+           top: 0;
+           font-family: Imprint MT Shadow;
+           margin-left: 25px;
+           margin-top: 75px;
+
+  }
+
+
+
+.article-title{
+  font-size: 1.8rem;
+  border-bottom: solid;
+  display: inline-block;
+  margin-left: 230px;
+  margin-top: 50px;
+  }
+
+ .article-title2{
+  font-size: 1.6rem;
+  border-bottom: solid;
+  display: inline-block;
+  margin-left: 230px;
+  margin-top: 50px;
+  } 
+
+.post-date-article span{
+  font-size: 2.0rem;
+  border-top: 1px rgba(255,255,255,.5) solid;
+  padding-top: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;  
+  font-family: Imprint MT Shadow;
+  
+        
+}
+
+.blog{
+  position: relative;
+  padding-top: 70px;
+  margin-bottom: 40px;
+  
+  margin-right: 230px;
+  margin-left: 230px;
+}
+
+.sideline{
+  border-left: dotted 5px;
+  border-right: dotted 5px;
+  border-color:#8ABCF5;
+}
+
+.main-article1{
+  margin-top: 70px;
+  margin-left: 25px;
+  width: 640px;
+}
+
+#doubleline{
+  border-bottom: double;
+  border-bottom-width: 7px;
+  border-color: red;
+}
+
+#bluefont{
+  color: darkblue;
+}
+
+#redfont{
+  color: red;
+}
+
+
+
+#bigend{
+  font-size: 1.5rem;
+}
+.table-of-contentsback{
+  margin-top:100px; 
+  height: 470px;
+  background-color: #B1B1B1;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.table-of-contents{
+  text-align: center;
+  font-size: 1.5rem;
+  padding-top: 30px;
+}
+
+.alslifecontents{
+  list-style-image: url("image/list.png");
+}
+
+
+.alslifecontentsdetaill ,.alslifecontentsdetail2 ,.alslifecontentsdetail3{
+  padding-left: 10px;
+
+}
+
+.alslifecontents li{
+  padding: 10px 0px;
+  font-weight: bold;
+}
+
+.alslifecontents a:link {color: black;}
+.alslifecontents a:visited{color: black;}
+.alslifecontents a:hover {color: red;}
+
+.alslifecontentsdetail2-0{
+  list-style: "∟";
+}
+
+.alslifecontentsdetail2-1{
+  padding-left: 20px;
+}
+
+.alslifecontentsdetail2-2{
+  padding-left: 20px;
+}
+
+.alslifecontentsdetail2-3{
+  padding-left: 20px;
+}
+
+.alslifecontentsdetail2-4{
+  padding-left: 20px;
+}
+
+
+.main-article-title1{
+         border-style: solid ;
+       font-family: Imprint MT Shadow;
+     position: relative;
+         bottom: 10px; 
+         border-radius:20px; 
+         border-color:#8ABCF5;
+         background-color: lightgreen;
+         padding-left: 10px;
+         width: 630px;
+         margin-top: 50px;
+         margin-left: 20px;
+}
+
+.article-content{
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.article-img{
+  width: 640px;
+  height: 400px;
+  margin-left: 25px;
+}
+
+.main-article2{
+  margin-left: 25px;
+  width: 640px;
+}
+
+.article-sub-title1{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 50px;
+}
+
+.home-detail-content{
+  font-weight: bold;
+  line-height: 40px;
+}
+
+.end-article{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.before-article{
+  font-size: 1.05rem;
+  background-color: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 9px 16px;
+  margin-left: 15px;
+}
+
+.next-article{
+  font-size: 1.05rem;
+  background-color: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 9px 16px;
+  margin-right: 15px;
+
+}
+
+#HCB_comment_box h3{
+       border-style: solid ;
+       font-family: Imprint MT Shadow;
+     position: relative;
+         bottom: 10px; 
+         border-radius:20px; 
+         border-color:#8ABCF5;
+         background-color: lightgreen;
+         padding-left: 10px;
+         width: 630px;
+         margin-left: 25px;
+         margin-top: 100px;
+}
+
+.hcb-shadow-r{
+  position: relative;
+  left: 25px;
+}
+
+#hcb_form_name_container{
+    width: 630px;
+}
+
+
+.btn.btn-secondary{
+  position: relative;
+  left: 25px;
+}
+
+#hcb_file_label{
+  margin-left: 40px;
+}
+
+#hcb_submit{
+  position: relative;
+  left: 25px;
+}
+
+#hcb_msg{
+  position: relative;
+  left: 25px;
+}
+
+div blockquote{
+  position: relative;
+  left: 25px;
+}
+
+.hcb-comment-tb{
+  position: relative;
+  left: 25px;
+}
+
+.likes{
+  margin-right: 400px;
+}
+
+
+
+.confirm2 {
+        font-size: 2rem;
+        padding: 20px 100px 0px 450px;
+        }
+      .confirm3{
+        padding: 5px 100px 2px 20px;
+        font-size: 1.25rem;
+        font-weight: bold;
+        background-color: #B1B1B1;
+        width: 500px;
+        margin-left: 280px;
+        display: grid;
+      }
+      .buttoncontact{
+        position: relative;
+        left: 480px;
+        font-size: 1.2rem;
+            background-color: #0bd;
+            color: #fff;
+            border-radius: 5px;
+            padding: 9px 16px;
+      }
+      .buttoncontact:hover{background:#0090aa;}
+      .al{color: darkred;
+        display: inline;
+        width: 500px;
+        }
+
+      .al1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+      }
+
+      .al2{
+        font-size: 1.25rem;
+        position: relative;
+        left: 400px;
+        font-weight: bold;
+      }
+      .buttonposition{
+        padding-bottom: 20px;
+      }
+
+       .al3{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 50px;
+      }
+
+
+/*レスポンシブのCSS*/
+
+@media (max-width: 990px){
+    
+  .smafonav {
+  background-color: #252D28;
+  color: white;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+  z-index: 999;}
+
+
+
+  #hamburg{
+  display: flex;
+}
+
+
+
+  .hometitle{
+    font-size: 1rem;
+    padding-bottom: 30px;
+  }
+
+  .header{
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  .smafologo { 
+          width: 5%;
+          height: 30px;
+          width:30px; 
+          padding: 10px 10px 0px 0px;
+      }
+.smafomenu{
+  width: 5%;
+}
+
+
+.space{
+  width: 90%;
+}
+
+.smafopicture { background-image: url("image/change.jpg");
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 200px;
+         width: 100%}
+
+h2.title  { text-align: center;
+    line-height: 1.5; 
+    font-family: Imprint MT Shadow;
+    color: white;
+    position:relative;
+    top: 80px;}
+
+.subtitle { font-weight: bold;
+          color: white;
+            font-family: Imprint MT Shadow;
+            text-align: center;
+            position:relative;
+          top: 60px;} 
+/*HOMEのレスポンシブのCSS*/
+.smafocontent  { 
+  padding-top: 60px;
+  width: 90%;
+  text-align: center;
+  font-family: Imprint MT Shadow;
+  color: white;
+  padding-left: 30px; }
+             
+.smafotitle{
+  font-size: 2rem;
+}
+
+.smafocontent p{ font-size: 1rem;
+                position: relative;
+                bottom: 30px;}
+
+
+.smafobutton {font-size: 1rem;
+         background-color: #0bd;
+         color: #fff;
+         border-radius: 5px;
+         padding: 4.5px 8px;
+         position: relative;
+         bottom: 20px;}  
+
+.smafobutton:hover{background:#0090aa;}
+
+#input{
+  display: none;
+}
+ 
+/*3本線を作る*/
+
+#nothomelabel1{
+  position: relative;
+  top: 17px;
+  left: 10px;}
+ 
+.nothomeline1,.nothomeline2,.nothomeline3{
+  width: 20px;
+  height: 3px;
+  background-color: white;
+  margin: 3px;
+  transition: .2s;}
+
+/*HOMEのレスポンシブのCSS*/
+#label1{
+  position: relative;
+  top: 15px;
+  left: 10px;}
+ 
+.line1,.line2,.line3{
+  width: 20px;
+  height: 3px;
+  background-color: black;
+  margin: 3px;
+  transition: .2s;
+}
+ 
+/*メニューのデザイン*/
+
+.smafonothome{
+  color: white;
+  background-color: gray;
+  width: 990px;
+  transform: translateX(-1005px);
+  position: relative;
+  top: 29px;
+  transition: .2s ease-in-out;
+  padding-left: 15px;
+  opacity: .8 
+   /*左側の奥の奥に埋めておく*/
+}
+/*HOMEのレスポンシブのCSS*/ 
+.smafohome{
+  color: white;
+  background-color: gray;
+  width: 600px;
+  transform: translateX(-615px);
+  position: relative;
+  top: 40px;
+  transition: .2s ease-in-out;
+  padding-left: 15px;
+  opacity: .8
+
+
+  
+   /*左側の奥の奥に埋めておく*/
+}
+
+.sitem{
+  padding: 10px;
+}
+
+.sitem a:link {color: white;}
+.sitem a:visited{color: white;}
+.sitem a:hover {color: red;}
+a {text-decoration: none;}  
+ 
+
+/*チェックが入ったら見せる*/
+#input:checked ~ label .nothomeline1{
+  transform: rotate(45deg);
+  position: relative;
+  top: 5.5px;
+}
+
+#input:checked ~ label .nothomeline2{
+  transform: rotate(90deg);
+  opacity: 0
+
+}
+
+#input:checked ~ label .nothomeline3{
+  transform: rotate(-45deg);
+  position: relative;
+  bottom:6.3px;　 
+}
+
+
+#input:checked ~ .smafonothome{
+  transform: translatex(0px);　/*通常値に戻す*/
+}
+
+/*HOMEのレスポンシブデザイン*/
+#input:checked ~ label .line1{
+  transform: rotate(45deg);
+  position: relative;
+  top: 5.5px;
+}
+
+#input:checked ~ label .line2{
+  transform: rotate(90deg);
+  opacity: 0
+
+}
+
+#input:checked ~ label .line3{
+  transform: rotate(-45deg);
+  position: relative;
+  bottom:6.3px;　 
+}
+
+
+#input:checked ~ .smafohome{
+  transform: translatex(0px);　/*通常値に戻す*/
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+}
+
+.photos1{
+  width: 180px;
+  height: 180px;
+  margin-top: 5px;
+  margin-left: 3px;
+}
+
+.pcPHOTOS1next{
+    font-size: 1.5rem;
+    margin-left: 180px;
+      font-weight: bold;
+    }
+
+.smafoPHOTOS1next a:link {color: black;}
+.smafoPHOTOS1next a:visited{color: black;}
+.smafoPHOTOS1next a:hover {color: red;}
+
+
+#google{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+}
+.adsence{
+  width: 180px;
+  height: 180px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 21px;
+  border: solid;
+  text-align: center;
+}
+
+.google{
+  padding-top: 60px;
+}
+
+.smafoaside{
+  width: 100%;
+  background-color:#8ABCF5;
+  text-align: center;
+  height: 800px;
+}
+
+.post{position: relative;
+      padding-top: 4px;
+      margin-left: 10px;
+      height: 350px;
+      }
+
+.post-date{background: #8ABCF5;
+           border-radius: 50%;
+           color: #fff;
+           width: 90px;
+           height: 80px;
+           font-size: 2.0rem;
+           text-align: center;
+           position: absolute;
+           top: 0;
+           padding-top: 10px;
+           margin-left: 0px;
+           padding-bottom: 10px;
+           top: 50px;
+           font-family: Imprint MT Shadow;
+  }
+
+.post-date span{
+  font-size: 1.0rem;
+  border-top: 1px rgba(255,255,255,.5) solid;
+  padding-top: 5px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;  
+  font-family: Imprint MT Shadow;        
+}
+
+.post-title{
+  font-family: Imprint MT Shadow;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-left: 90px;
+  margin-top: 60px;
+
+}
+
+.post1{
+  width:280px;
+  height: 180px; 
+  margin-left: 100px;
+  padding-bottom: 0px;
+
+}
+
+.post-under{
+  position: relative;
+  padding-top: 4px;
+  margin-left: 10px;
+  height: 350px;
+ }
+
+.post-date-article{background: #8ABCF5;
+           border-radius: 50%;
+           color: #fff;
+           width: 90px;
+           height: 80px;
+           font-size: 2.0rem;
+           text-align: center;
+           padding-top: 10px;
+           padding-bottom: 10px;
+           position: absolute;
+           top: 0;
+           font-family: Imprint MT Shadow;
+           margin-left: 10px;
+           margin-top: 55px;
+
+  }
+
+
+
+.article-title{
+  width: 245px;
+  font-size: 1.1rem;
+  border-bottom: solid;
+  display: inline-block;
+  margin-left: 120px;
+  margin-bottom: 20px;
+  position: relative;
+  bottom: 30px;
+  }
+
+ .article-title2{
+  font-size: 1.0rem;
+  border-bottom: solid;
+  display: inline-block;
+  margin-left: 115px;
+  position: relative;
+  bottom: 30px;
+  
+  } 
+
+.post-date-article span{
+  font-size: 1.0rem;
+  border-top: 1px rgba(255,255,255,.5) solid;
+  padding-top: 10px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;  
+  font-family: Imprint MT Shadow;
+  
+        
+}
+
+.blog{
+  display: grid;
+  grid-template-columns: 440px;
+  grid-row-gap: 0px;
+  grid-column-gap: 0px;
+  margin-left: 0px;
+  padding-right: 0px;
+  margin-right: 0px;
+
+}
+
+.sideline{
+  margin-right: 35px;
+  margin-left: 15px;
+}
+
+.table-of-contentsback{
+  margin-top:50px; 
+}
+
+.main-article-title1{
+         border-style: solid ;
+       font-family: Imprint MT Shadow;
+     position: relative;
+         bottom: 10px; 
+         border-radius:20px; 
+         border-color:#8ABCF5;
+         background-color: lightgreen;
+         padding-left: 10px;
+         width: 340px;
+         margin-top: 50px;
+         margin-left: 15px;
+}
+.main-article1{
+  margin-top: 10px;
+  width: 92%;
+  margin-left: 20px;
+  
+ 
+  }
+
+.article-img{
+  width: 350px;
+  height: 210px;
+  margin-left: 15px;
+ }
+
+.smafoimage{
+  padding-left: 120px;
+  padding-top: 30px;
+  width: 150px;
+  height: 300px;
+}
+
+.main-article2{
+  width: 92%;
+  margin-left: 20px;
+}
+
+#HCB_comment_box h3{
+       border-style: solid ;
+       font-family: Imprint MT Shadow;
+     position: relative;
+         bottom: 10px; 
+         border-radius:20px; 
+         border-color:#8ABCF5;
+         background-color: lightgreen;
+         padding-left: 10px;
+         width: 340px;
+         margin-left: 15px;
+         margin-top: 100px;
+}
+
+.hcb-shadow-r{
+  position: relative;
+  left: 25px;
+}
+
+#hcb_form_name_container{
+    width: 330px;
+}
+
+
+.btn.btn-secondary{
+  position: relative;
+  left: 25px;
+}
+
+#hcb_file_label{
+  margin-left: 30px;
+}
+
+#hcb_submit{
+  position: relative;
+  left: 25px;
+}
+
+#hcb_msg{
+  position: relative;
+  left: 25px;
+}
+
+div blockquote{
+  position: relative;
+  left: 25px;
+}
+
+.hcb-comment-tb{
+  position: relative;
+  left: 25px;
+}
+
+.likes{
+  margin-right: 130px;
+}
+
+.confirm1{
+  font-size: 2rem;
+  padding-left: 140px;
+  
+}
+
+.smafocontact{
+  margin-bottom: 50px;
+}
+
+
+input.form {height: 25px;
+       width: 380px;
+       font-size: 1.2rem;}
+
+textarea {height: 100px;
+          width: 380px;
+          vertical-align:top;}
+
+.name{
+  padding-left: 21px;
+  padding-top: 30px;
+}
+
+.mail{
+  padding-left: 21px;
+}
+
+.contact{
+  padding-left: 21px;
+}
+
+.send{
+  position: relative;
+  left: 155px;
+}
+
+/*↓index.php*/
+.confirm2 {
+        font-size: 1.62rem;
+        padding: 20px 0px 0px 90px;
+        }
+      .confirm3{
+        padding: 5px 100px 2px 20px;
+        font-size: 1.0rem;
+        font-weight: bold;
+        background-color: #B1B1B1;
+        width: 250px;
+        margin-left: 25px;
+      }
+
+      .buttoncontact{
+        position: relative;
+        left: 78px;
+        font-size: 1.2rem;
+            background-color: #0bd;
+            color: #fff;
+            border-radius: 5px;
+            padding: 9px 16px;
+            margin: 0px 10px;
+      }
+
+      .buttoncontact:hover{background:#0090aa;}
+      
+
+
+      .al1{
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+      }
+
+      .al2{
+        font-size: 1.0rem;
+        font-weight: bold;
+        position: relative;
+        left: 50px;
+        margin-right: 50px;
+      }
+      .buttonposition{
+        padding-bottom: 20px;
+      }
+
+      .al3{
+        font-size: 1.4rem;
+        text-align: center;
+        font-weight: bold;
+        padding-top: 50px;
+        padding-bottom: 50px;
+      }
+
+} /*レスポンシブデザイン終了*/
+
+#no_comments , .hcb-icon ,.home-desc ,a.btn.btn-secondary{
+  display: none;
+}
+
+@media screen and (min-width: 990px){
+  #hamburg ,.smafopicture ,#google ,.smafoaside{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 990px){
+  .headerhome ,.homecontent ,.contact2 ,#pcpicture ,.pcaside {
+    display: none;
+  }
+  .big{
+    min-height: 200vw;
+}
+
+}
